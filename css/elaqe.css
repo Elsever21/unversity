@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+     border:none;
+    text-decoration: none !important;
+    transition: all .2s linear;
+    list-style-type: none;
+  }
+  #navbar{
+    visibility: collapse;
+}
+.comunucation{
+    width:100%;
+    height: 600px;
+    /* background-color: blue; */
+    display: flex;
+}
+.map{
+    width: 50%;
+    height: 600px;
+    /* background-image: url(../img/logo\ \(2\).png); */
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.map iframe{
+    width: 90%;
+    height: 450px;
+}
+
+
+.comunucation-in{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.message{
+    width: 90%;
+    height: 450px;
+    background-color: rgba(151, 151, 151, 0.191);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.small-message{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.small-message input{
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: black !important;
+    border-bottom: 1px solid;
+    opacity: none;
+    background-color: transparent;
+   
+}
+.small-message input::placeholder{
+    color: black;
+}
+.small-message textarea{
+    width:561px;
+    height: 170px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.message button{
+    width: 561px;
+    height: 70px;
+    background-color: green;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+}
+.message button:hover{
+    background-color: red;
+    transition: 1.1s;
+}
